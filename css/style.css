@@ -30,7 +30,7 @@ body {
 	/* space between links */
 }
 
-#t1 a, n, c {
+#t1 h1 {
 	color: lightgreen;
 	/* makes the text lightgreen */
 	font-size: 50px;
@@ -109,7 +109,8 @@ body {
 }
 
 #dd1 {
-	max-width: 500px;
+	width: 500px;
+	min-width: none;
 	font-size: 18px;
 	font-weight: bold;
 	/* makes the text bold */
@@ -125,6 +126,7 @@ body {
 }
 
 .container {
+	display: flex;
 	border: 1px solid;
 	/* adds a 1px border for all container classes across both pages */
 	margin-left: 30px;
@@ -504,7 +506,3 @@ body {
 		/* change text colour to white */
 	}
 }
-
-
-
-
