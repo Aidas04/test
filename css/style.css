@@ -4,529 +4,503 @@
 
 /* This is the styling completed for the Homepage by Aidas Kibas (x23413689) */
 
-body{ /* open and close brackets are used and within them there is content for the type of styling used by the creators */
-	
-		background-color: white; /* Background-color is set to white for the whole body of the page */
-		
+body {
+	/* open and close brackets are used and within them there is content for the type of styling used by the creators */
+	background-color: white;
+	/* Background-color is set to white for the whole body of the page */
 }
 
-/* # is for id         . is for class */
-
-/* Styling the Navbar       
-.navbar-default {
-    background-color: #90EE90;
-    border-color: #90EE90;
-}
- 
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-  color: #004400;    /* a dark green that contrasts well 
-}
- 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > li > a:hover {
-  background-color: #7ed17e;
-  color:            #002200;
-}
- 
-/* Get rid of the gap between navabr and jumbotron 
-.navbar-default {
-    margin-bottom: 0;
-}*/
-
-#nav{ /* this adds a border at the bottom of the nav bar and the colour lightgreen as the background colour */
-	
-	
+#nav {
+	/* this adds a border at the bottom of the nav bar and the colour lightgreen as the background colour */
 	border-bottom: 3px solid black;
-	background-color:lightgreen;
-	
+	background-color: lightgreen;
+
 }
 
 #nav-content {
-  display: flex;
-  justify-content: center;    /* centers items horizontally */
-  flex-wrap: wrap;            /* allows wrapping if needed */
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: black;
-  gap: 15px;                  /* space between links */
+	display: flex;
+	justify-content: center;
+	/* centers items horizontally */
+	flex-wrap: wrap;
+	/* allows wrapping if needed */
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: black;
+	gap: 15px;
+	/* space between links */
 }
 
-#t1 h1{
-  
-  color: lightgreen; /* makes the text lightgreen */
-  font-size: 50px; /* changes the font size to 50 pixels */
-	font-family: "Bitter", serif; /* font change from google fonts */
+#t1 h1 {
+	color: lightgreen;
+	/* makes the text lightgreen */
+	font-size: 50px;
+	/* changes the font size to 50 pixels */
+	font-family: "Bitter", serif;
+	/* font change from google fonts */
 	font-optical-sizing: auto;
 }
 
-#t1 p{
-	
+#t1 p {
 	font-size: 40px;
 	color: white;
-	
+
 }
 
-#t1{
-	
+#t1 {
 	display: flex;
-	background-image: url("../images/plant.jpg"); /* background image behind the text is this plant.jpg image */
-	background-size: cover; /* covers the whole div that it is in */
+	background-image: url("../images/plant.jpg");
+	/* background image behind the text is this plant.jpg image */
+	background-size: cover;
+	/* covers the whole div that it is in */
 	background-position: center 30%;
-	
+
 }
 
 #t1 p {
-  font-weight: normal; /* this makes the text neither bold nor underlined */
-  
+	font-weight: normal;
+	/* this makes the text neither bold nor underlined */
 }
 
-#t1{
-	
-	border-bottom: 3px solid black; /* this adds a border at the bottom of the div id as t1 and it is a solid black border that is 3px thick */
-	
+#t1 {
+	border-bottom: 3px solid black;
+	/* this adds a border at the bottom of the div id as t1 and it is a solid black border that is 3px thick */
 }
 
-.dropdown1{
-	
-	border-bottom: 3px solid; /* same as above bottom black border */
-	
+.dropdown1 {
+	border-bottom: 3px solid;
+	/* same as above bottom black border */
 }
 
-#h2{
-	
-	margin-left: 30px; /* margin left pushes the text characters to the left based on how many pixels you write - i wrote 30px */
-	
-}
-
-.text-box{
-	
-	 width: 45%; /* width of the text box in percentage - 45% of the screen width */
-  margin-left: 30px; /* pushes characters to the left by 30 pixels - in this case the whole text box */
-  margin-top: 20px; /* pushes characters from the top by 20px */
-  padding: 20px; /* padding adds padding (lol) between the characters within the text box so that the text isnt touching the text box */
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 10px; /* curves the border */
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* chatgpt had to help me to make a shadown */
-  font-family: "Bitter", serif; /* a font i chose from google fonts */
-  font-size: 20px;
-  line-height: 1.6; /* after each line there is a line height - in this 1.6 to prevent the text from being sandwiched together or too far apart */
-  background-image: url("../images/sky.jpg"); /* i added a sky image as the background instead of a colour to make it look nice lol */
-  background-size: cover; /* this is to style the image so that it covers the whole text box */
-  
-}
-
-#p1{
-	
-	font-weight: bold; /* makes the text white and bold */
-	color: white;
-	
-}
-
-#dd1{
-	
-	font-size: 18px;
-	font-weight: bold; /* makes the text bold */
-	background-color: lightgreen; /* set to light green */
-	color: black; /* colour of the text - black */
-	
-}
-
-#head-n{
-	
-	margin-left: 30px; /* this is pushed 30px from the left side */
-	
-}
-
-.container{
-	
-	border: 1px solid; /* adds a 1px border for all container classes across both pages */
+#h2 {
 	margin-left: 30px;
-	
+	/* margin left pushes the text characters to the left based on how many pixels you write - i wrote 30px */
+}
+
+.text-box {
+	width: 45%;
+	/* width of the text box in percentage - 45% of the screen width */
+	margin-left: 30px;
+	/* pushes characters to the left by 30 pixels - in this case the whole text box */
+	margin-top: 20px;
+	/* pushes characters from the top by 20px */
+	padding: 20px;
+	/* padding adds padding (lol) between the characters within the text box so that the text isnt touching the text box */
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	/* curves the border */
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+	/* chatgpt had to help me to make a shadown */
+	font-family: "Bitter", serif;
+	/* a font i chose from google fonts */
+	font-size: 20px;
+	line-height: 1.6;
+	/* after each line there is a line height - in this 1.6 to prevent the text from being sandwiched together or too far apart */
+	background-image: url("../images/sky.jpg");
+	/* i added a sky image as the background instead of a colour to make it look nice lol */
+	background-size: cover;
+	/* this is to style the image so that it covers the whole text box */
+}
+
+#p1 {
+	font-weight: bold;
+	/* makes the text white and bold */
+	color: white;
+}
+
+#dd1 {
+	font-size: 18px;
+	font-weight: bold;
+	/* makes the text bold */
+	background-color: lightgreen;
+	/* set to light green */
+	color: black;
+	/* colour of the text - black */
+}
+
+#head-n {
+	margin-left: 30px;
+	/* this is pushed 30px from the left side */
+}
+
+.container {
+	border: 1px solid;
+	/* adds a 1px border for all container classes across both pages */
+	margin-left: 30px;
 }
 
 #button-a {
-  display: inline-block; /* displays the button within the grid so it doesnt go over the lines */
-  padding: 10px 20px; /* pads 10px in height and 20px in width */
-  background-color: lightgray;
-  color: black;
-  text-decoration: none; /* this makes it so that there is no underline or bold etc */
-  border-radius: 5px; /* makes the radius of the border 5px to add curve */
+	display: inline-block;
+	/* displays the button within the grid so it doesnt go over the lines */
+	padding: 10px 20px;
+	/* pads 10px in height and 20px in width */
+	background-color: lightgray;
+	color: black;
+	text-decoration: none;
+	/* this makes it so that there is no underline or bold etc */
+	border-radius: 5px;
+	/* makes the radius of the border 5px to add curve */
 }
 
 #button-a:hover {
-  background-color: lightgreen; /* when the mouse hovers over the button it changes background colour to lightgreen and text colour black */
-  color: black;
-}
-
-#tur{
-	
-	width: 400px; /* manages turbine image dimensions and placement */
-	margin-left: 30px;
-	
-}
-
-#solarsky1{
-	
-	width: 470px; /* dimensions */
-	
-}
-
-#soil{
-	
-	width: 470px; /* dimensions */
-	margin-left: 30px;
-	
-}
-
-#recycle{
-	
-	width: 470px; /* dimensions */
-	
-}
-
-#pol{
-	
-	width: 400px; /* dimensions */
-	margin-left: 30px;
-	
-}
-
-#hand{
-	
-	width: 415px; /* dimensions */
-	
-	
-}
-
-.join-us{
-	
-	border-top: 3px solid; /* adding borders for structure */
-	border-bottom: 3px solid;
-	
-}
-
-#form{
-	
-	margin-left: 30px;  /* dimensions */
-	
-}
-
-#con:hover{
-	
-	background-color: lightgreen; /* on hover does the following */
+	background-color: lightgreen;
+	/* when the mouse hovers over the button it changes background colour to lightgreen and text colour black */
 	color: black;
-	
 }
 
-#show-confirmation{
+#tur {
+	width: 400px;
+	/* manages turbine image dimensions and placement */
+	margin-left: 30px;
+}
+
+#solarsky1 {
+	width: 470px;
+	/* dimensions */
+}
+
+#soil {
+	width: 470px;
+	/* dimensions */
+	margin-left: 30px;
+}
+
+#recycle {
+	width: 470px;
+	/* dimensions */
+}
+
+#pol {
+	width: 400px;
+	/* dimensions */
+	margin-left: 30px;
+}
+
+#hand {
+	width: 415px;
+	/* dimensions */
+
+
+}
+
+.join-us {
+	border-top: 3px solid;
+	/* adding borders for structure */
+	border-bottom: 3px solid;
+}
+
+#form {
+	margin-left: 30px;
+	/* dimensions */
+}
+
+#con:hover {
+	background-color: lightgreen;
+	/* on hover does the following */
+	color: black;
+}
+
+#show-confirmation {
 	/*stying the text box that appears */
 	margin-left: 30px;
 	border: 3px solid;
 	background-color: lightblue;
-	text-align: center; /* aligns the text to the centre of the text box */
+	text-align: center;
+	/* aligns the text to the centre of the text box */
 	border-radius: 20px;
-	
 }
 
-#foot{ /* same code used across the whole website */
-	
-	position: relative; /* this is how you can move an element around */
-    left: 0; /* how much space between the bottom and the left - 0 in this case */
-    bottom: 0;
-    width: 100%; /* 100% of the screen that is */
-    line-height: 50px;
-    height: 50px;
-    text-align: center;
-    color: black; /* colour of text */
-    background-color: #90EE90; /* this is bootstrap light green */
-	
+#foot {
+	/* same code used across the whole website */
+	position: relative;
+	/* this is how you can move an element around */
+	left: 0;
+	/* how much space between the bottom and the left - 0 in this case */
+	bottom: 0;
+	width: 100%;
+	/* 100% of the screen that is */
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	color: black;
+	/* colour of text */
+	background-color: #90EE90;
+	/* this is bootstrap light green */
 }
 
 /* This is the code below that makes the webpage responsive for the Homepage - Aidas Kibas */
+@media (max-width: 600px) {
+	/* @media affects the elements within its code, max-width means that anything below this size alter the following */
 
-@media (max-width: 600px) { /* @media affects the elements within its code, max-width means that anything below this size alter the following */
-	
 	#nav-content {
-    flex-wrap: nowrap;         /* force one row */
-    overflow-x: auto;          /* allow horizontal scroll if content is too wide */
-    white-space: nowrap;       /* prevent line breaks */
-    justify-content: flex-start;
-    padding-left: 10px;
-  }
-	
-	#dd1{
-		display: none; /* dissapears once screen size is below 600px */
+		flex-wrap: nowrap;
+		/* force one row */
+		overflow-x: auto;
+		/* allow horizontal scroll if content is too wide */
+		white-space: nowrap;
+		/* prevent line breaks */
+		justify-content: flex-start;
+		padding-left: 10px;
 	}
-	
-	#paragraph1{
-		font-size: 14px; /* font size becomes smaller to match sizes */
-		text-align: left; /* text aligns to the left most part of the div */
-		color: black; /* text colour becomes black */
+
+	#dd1 {
+		display: none;
+		/* dissapears once screen size is below 600px */
 	}
-	
-	#tur{
-		width:250px; /* adjusted the size of the tur image */
+
+	#paragraph1 {
+		font-size: 14px;
+		/* font size becomes smaller to match sizes */
+		text-align: left;
+		/* text aligns to the left most part of the div */
+		color: black;
+		/* text colour becomes black */
+	}
+
+	#tur {
+		width: 250px;
+		/* adjusted the size of the tur image */
 		height: 200px
 	}
-	
-	#paragraph2{
+
+	#paragraph2 {
 		font-size: 15px;
-		text-align: left; /* adjusted to match smaller screen size */
+		text-align: left;
+		/* adjusted to match smaller screen size */
 		color: black;
 	}
-	
-	#soil{
+
+	#soil {
 		display: none;
 	}
-	
-	#recycle{
-		width: 300px; /* adjusted to match smaller screen size */
+
+	#recycle {
+		width: 300px;
+		/* adjusted to match smaller screen size */
 	}
-	
-	#pol{
+
+	#pol {
 		display: none;
 	}
-	
-	#paragraph3{
+
+	#paragraph3 {
 		font-size: 13px;
-		text-align: left; /* adjusted to match smaller screen size */
+		text-align: left;
+		/* adjusted to match smaller screen size */
 		color: black;
 	}
 }
 
 /* This is where the Renewable Energy page is styled - Aidas Kibas */
 
-#tr1{ /* this styles the first div in the renewable energy page under the nav bar */
-	
+#tr1 {
+	/* this styles the first div in the renewable energy page under the nav bar */
 	border-bottom: 3px solid black;
 	color: white;
-	background-image: url("../images/plant.jpg"); /* image of a plant used as the background */
-	background-size: cover; /* so the image covers the div */
-	background-position: center 30%; /* helps show more of the image */
-	
+	background-image: url("../images/plant.jpg");
+	/* image of a plant used as the background */
+	background-size: cover;
+	/* so the image covers the div */
+	background-position: center 30%;
+	/* helps show more of the image */
+
 }
 
-#head-n2{
-	
-	margin-left:30px; /* styling the font size and how far its pushed from the left */
+#head-n2 {
+	margin-left: 30px;
+	/* styling the font size and how far its pushed from the left */
 	font-size: 60px;
-	
+
 }
 
 .info-box1 {
-  background-color: lightblue;
-  padding: 10px;
-  border-radius: 20px; /* adds a curve to text box */
-  margin: 20px auto;
-  text-align: center; /* puts text in the middle of the text box */
-  box-shadow: 0 1px; /* adds a dark shadow for 3d illusion of text box */
+	background-color: lightblue;
+	padding: 10px;
+	border-radius: 20px;
+	/* adds a curve to text box */
+	margin: 20px auto;
+	text-align: center;
+	/* puts text in the middle of the text box */
+	box-shadow: 0 1px;
+	/* adds a dark shadow for 3d illusion of text box */
 }
 
-#head-n3{
-	
-	margin-left:30px; /* pushes text 30px from left */
-	
+#head-n3 {
+	margin-left: 30px;
+	/* pushes text 30px from left */
 }
 
-#button-a2{
-	
-	margin-left: 30px; /* pushes text 30px from left */
-	
+#button-a2 {
+	margin-left: 30px;
+	/* pushes text 30px from left */
 }
 
 #button-a2:hover {
-  background-color: purple; /* when mouse hovers on button-a2 it becomes purple with black text */
-  color: white;
-}
-
-.examples-list{
-	
-	border-bottom: 3px solid; /* adds a border at the top and bottom of div and makes the background lightgrey */
-	border-top: 3px solid;
-	background-color: lightgrey;
-	
-}
-
-#head-n4{
-	
-	margin-left:30px;
-	
-}
-
-#pr1{
-	
-	margin-left: 30px;
-	
-}
-
-#button-a3{
-	
-	margin-left: 30px;
-	
-}
-
-#button-a3:hover{
-	
-	background-color: blue; /* on hover - blue background and white text */
+	background-color: purple;
+	/* when mouse hovers on button-a2 it becomes purple with black text */
 	color: white;
-	
 }
 
-#olr1{
-	
-	margin-left: 30px;
-	
-}
-
-.container mt-4{
-	
-	margin-left: 30px;
-	
-}
-
-#dam{
-	
-	width: 650px; /* had to adjust the size of the dam image only */
-	height: 423px;
-	
-}
-
-.info-box2-list{
-	
-	border-bottom: 3px solid; /* this is how the div was styled */
+.examples-list {
+	border-bottom: 3px solid;
+	/* adds a border at the top and bottom of div and makes the background lightgrey */
 	border-top: 3px solid;
 	background-color: lightgrey;
-	
+}
+
+#head-n4 {
+	margin-left: 30px;
+}
+
+#pr1 {
+	margin-left: 30px;
+}
+
+#button-a3 {
+	margin-left: 30px;
+}
+
+#button-a3:hover {
+	background-color: blue;
+	/* on hover - blue background and white text */
+	color: white;
+}
+
+#olr1 {
+	margin-left: 30px;
+}
+
+.container mt-4 {
+	margin-left: 30px;
+}
+
+#dam {
+	width: 650px;
+	/* had to adjust the size of the dam image only */
+	height: 423px;
+}
+
+.info-box2-list {
+	border-bottom: 3px solid;
+	/* this is how the div was styled */
+	border-top: 3px solid;
+	background-color: lightgrey;
 }
 
 .info-box2 {
-  background-color: lightblue;
-  padding: 10px; /* padding between text and outer layer of box */
-  border-radius: 20px; /* curve */
-  margin: 20px auto;
-  text-align: center; /* text in middle of box */
-  box-shadow: 0 1px; /* shadow for box */
+	background-color: lightblue;
+	padding: 10px;
+	/* padding between text and outer layer of box */
+	border-radius: 20px;
+	/* curve */
+	margin: 20px auto;
+	text-align: center;
+	/* text in middle of box */
+	box-shadow: 0 1px;
+	/* shadow for box */
 }
 
-#button-a4{
-	
+#button-a4 {
 	margin-left: 30px;
-	
 }
 
 #button-a4:hover {
-  background-color: green; /* on hover - background green and text white */
-  color: white;
+	background-color: green;
+	/* on hover - background green and text white */
+	color: white;
 }
 
 .list-image {
-  display: flex;
-  align-items: flex-start; /* aligns image and list to the top */
-  gap: 20px; /* space between list and image */
-  margin-top: 20px;
-  margin-left: 30px;
+	display: flex;
+	align-items: flex-start;
+	/* aligns image and list to the top */
+	gap: 20px;
+	/* space between list and image */
+	margin-top: 20px;
+	margin-left: 30px;
 }
 
-#table-a{
-	
-	margin-left:0px;
-	border: 1px solid; /* adds border */
-	width: fit-content; /* fits content into width of box */
+#table-a {
+	margin-left: 0px;
+	border: 1px solid;
+	/* adds border */
+	width: fit-content;
+	/* fits content into width of box */
 	padding: 22px;
-	border-radius: 8px; /* adds curve */
+	border-radius: 8px;
+	/* adds curve */
 	background-color: lightblue;
 }
 
 
-#title-a{
-	
+#title-a {
 	margin-left: 30px;
-	
 }
 
 #side-image {
-  max-width: 200px; /* 200px maximum width for image */
-  height: auto;
-  border-radius: 8px;
+	max-width: 200px;
+	/* 200px maximum width for image */
+	height: auto;
+	border-radius: 8px;
 }
 
-#cont{
-	
+#cont {
 	margin-left: 30px;
-	
 }
 
-.form-a{
-	
+.form-a {
 	margin-left: 30px;
-	
 }
 
-#continue:hover{
-	
+#continue:hover {
 	background-color: lightgreen;
-	color:black;
-	
+	color: black;
 }
 
-#response{
-	
+#response {
 	border: 3px solid;
 	background-color: lightblue;
 	color: black;
 	text-align: center;
 	border-radius: 20px;
-	
 }
 
 /* This is where the responsiveness is done for the Renewable Energy page - Aidas Kibas */
 
-@media (max-width: 600px) { /* @media affects the elements within its code, max-width means that anything below this size alter the following */
-	
-	#head-n2{
-		
-		font-size: 50px; /* changes font size to 50px */
+@media (max-width: 600px) {
+	/* @media affects the elements within its code, max-width means that anything below this size alter the following */
+
+	#head-n2 {
+
+		font-size: 50px;
+		/* changes font size to 50px */
 	}
-	
-	p{
-		color: white; /* change text colour to white */
+
+	p {
+		color: white;
+		/* change text colour to white */
 	}
-	
-	#pr1{
-		color: black; /* change text colour to black */
+
+	#pr1 {
+		color: black;
+		/* change text colour to black */
 	}
-	
-	.info-box1{
-		background-color: blue; /* change background to blue */
+
+	.info-box1 {
+		background-color: blue;
+		/* change background to blue */
 	}
-	
-	.info-box2{
-		background-color: blue; /* change background to blue */
+
+	.info-box2 {
+		background-color: blue;
+		/* change background to blue */
 	}
-	
-	#table-a{
-		background-color: blue; /* change background to blue */
-		color: white; /* change text colour to white */
+
+	#table-a {
+		background-color: blue;
+		/* change background to blue */
+		color: white;
+		/* change text colour to white */
 	}
-}
-
-
-
-
-
-
-
-
-/*#nav-content{
-	
-	margin-left: 700px;
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 10px;
-	color: black;
-	
 }
