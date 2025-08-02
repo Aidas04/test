@@ -7,247 +7,182 @@
 <head>
 
 	<title>Renewable Energy</title> <!-- title of the web page -->
-	
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> <!-- bootstrap code that helps make grid for images -->
-	
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+	<!-- bootstrap code that helps make grid for images -->
+
 	<link rel="stylesheet" href="css/style.css"> <!-- link to style sheet called style.css -->
-	
-	
-	
-	 <script> <!-- start of script -->
-		
-		function showRandom(){ //function allows us to cause something to happen
-		
-			randomNumber=Math.floor(Math.random() *10)+1; //this is what is happening i.e the numbers between 1-10 are being randomised and chosen
-			
-			alert("Your random generated number is: "+ randomNumber + ". Now see the list below for a topic that you could learn about!"); //this is what the output will be to the user
-			
-			}
-			
-			function message(){ //when the function message is called by a button or other, this text will be alerted to the user at the top of the page
-			
-				alert("Nearly 90% of homes in Iceland are heated by Geothermal energy - energy that comes from under the ground!");
-				
-				}
-	
+
+
+
+	<script> <!-- start of script -->
+
+		function showRandom() { //function allows us to cause something to happen
+
+			randomNumber = Math.floor(Math.random() * 10) + 1; //this is what is happening i.e the numbers between 1-10 are being randomised and chosen
+
+			alert("Your random generated number is: " + randomNumber + ". Now see the list below for a topic that you could learn about!"); //this is what the output will be to the user
+
+		}
+
+		function message() { //when the function message is called by a button or other, this text will be alerted to the user at the top of the page
+
+			alert("Nearly 90% of homes in Iceland are heated by Geothermal energy - energy that comes from under the ground!");
+
+		}
+
 	</script> <!-- end of script in head so its here once page is loaded -->
-	
+
 </head>
 
 <body> <!-- start of body -->
-
-	<!--<nav class="navbar navbar-default"> <!-- nav bar used across whole website 
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">AoCC</a>
-                    </div>
-                    <ul class="nav navbar-nav">
-                        <li><a href="homepage.html">Homepage</a></li>
-                        <li><a href="renewable_energy.html">Renewable Energy</a></li>
-                        <li class="active"><a href="sustainable_living.html">Sustainable Living</a></li>
-                        <li><a href="#">Climate Policy</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav>-->
-
-	<!-- this is the nav bar i wanted to use originally -->
-	
-	 <div id="nav"> 
-	
+	<div id="nav">
 		<div id="nav-content">
-	
 			<a href="index.html">Homepage</a> |
 			<a href="renewable_energy.html">Renewable Energy</a> |
 			<a href="">Sustainable Living</a> |
 			<a href="">Climate Policy</a> |
 			<a href="contact.html">Contact Us</a>
-			
 		</div>
-		
-	</div> 
-	
+	</div>
 	<div id="tr1">
-	
-	<h2 id="head-n2">Renewable Energy</h2>
-	
+		<h2 id="head-n2">Renewable Energy</h2>
 	</div>
-	
 	<br>
-	
 	<div class="info-box1"> <!-- info-box1 used in css to style -->
-	
-	<h4 id="head-n3">What is Renewable Energy?</h4> <!-- h4 is a heading that is bigger than regular text -->
-	
-	<p>Renewable energy is a form of energy that can replenish over time and can be reused naturally. Solar energy comes from the sun. Wind energy comes from the wind. Hydro energy comes from the water. The way in which humans collect this energy all varies based on the energy. Solar panels can harness the energy of the sun. Wind turbines can harness energy from the wind. Hydro dams can harness energy from flowing water. Each energy type is naturally found on the planet therefore it is classified as a renewable energy. Although these methods are used to harness the energy, a large population still choose to use non-renewable energy such as fossil fuels that cannot be reused and harm the planet.</p>
-	
-	<button onclick="message()" id="button-a2">Click Here For A Fun Fact!</button> <!-- this is a button that has a js code onclick in it that when the button is clicked the function message() runs in the script -->
-	
+		<h4 id="head-n3">What is Renewable Energy?</h4> <!-- h4 is a heading that is bigger than regular text -->
+		<p>Renewable energy is a form of energy that can replenish over time and can be reused naturally. Solar energy
+			comes from the sun. Wind energy comes from the wind. Hydro energy comes from the water. The way in which
+			humans collect this energy all varies based on the energy. Solar panels can harness the energy of the sun.
+			Wind turbines can harness energy from the wind. Hydro dams can harness energy from flowing water. Each
+			energy type is naturally found on the planet therefore it is classified as a renewable energy. Although
+			these methods are used to harness the energy, a large population still choose to use non-renewable energy
+			such as fossil fuels that cannot be reused and harm the planet.</p>
+		<button onclick="message()" id="button-a2">Click Here For A Fun Fact!</button>
+		<!-- this is a button that has a js code onclick in it that when the button is clicked the function message() runs in the script -->
 	</div>
-	
 	<br><br><br>
-	
 	<div class="examples-list">
-	
-	<h2 id="head-n4">Examples Of Renewable Energy</h2>
-	
-	<p id="pr1">The pictures below showcase methods/examples of renewable energy. Click the button to reveal a list of renewable energies. The list provides you with information about each picture labelled from 1-4.</p>
-	
-	<button id="button-a3" onclick="showEnergyList()">Show Energy Examples</button> <!-- this is another button with a js code onclick that runs at the bottom of the body as it does not need to be available once the page is loaded into initially -->
-	
-	<ol id="olr1"></ol> <!-- ol makes an ordered list marked 1-10 in this case -->
-	
+		<h2 id="head-n4">Examples Of Renewable Energy</h2>
+		<p id="pr1">The pictures below showcase methods/examples of renewable energy. Click the button to reveal a list
+			of renewable energies. The list provides you with information about each picture labelled from 1-4.</p>
+		<button id="button-a3" onclick="showEnergyList()">Show Energy Examples</button>
+		<!-- this is another button with a js code onclick that runs at the bottom of the body as it does not need to be available once the page is loaded into initially -->
+		<ol id="olr1"></ol> <!-- ol makes an ordered list marked 1-10 in this case -->
 	</div>
-	
 	<!-- this is where my bootstrap link from above creates a grid with 4 images in it as part of the brief -->
-	
-		<div class="container mt-4">
-  <div class="row">
-    <div class="col-md-6 mb-3"> <!-- this is the column size from bootstrap -->
-      <img src="images/solar.jpg" class="img-fluid" alt="Image of solar panels"> <!-- this is an image called solar.jpg -->
-    </div>
-    <div class="col-md-6 mb-3">
-      <img src="images/turbine.jpg" class="img-fluid" alt="Image of wind turbines">
-    </div>
-    <div class="col-md-6 mb-3">
-      <img id="dam" src="images/dam.jpg" class="img-fluid" alt="Image of water dam">
-    </div>
-    <div class="col-md-6 mb-3">
-      <img src="images/nature.jpg" class="img-fluid" alt="Image of tree in nature">
-    </div>
-  </div>
-</div>
-
-	<br>
-	
-	<div class="info-box2-list"> <!-- this divs everything until the corresponding /div -->
-	
-	<div class="info-box2">
-	
-	<h2 id="head-n4">How You Can Help</h2>
-	
-	<p>Knowledge is power. When it comes to Renewable Energy, you can help by simply learning about the topic or a specific type of energy. Perhaps it will trigger an interest for a career in Renewable Energy or become a fun fact that you can pull out when a conversation gets dull. Either way, learning anything new about Renewable Energy will help you understand how many everyday objects work and how you can make a change to be greener! Below we have a list of 10 types of Renewable Energy that you could learn about. Simply choose a topic or press the "Generate" button for a random number if you are picky.</p> <!-- text that i wrote 100% in my own words -->
-	
-	</div>
-	
-		<button id="button-a4" onclick="showRandom()">Generate Number</button> <!-- This is the button that will cause the random number to be chosen by JS in the script in the head tag-->
-		
-		<div class="list-image">
-		
-			<div id="table-a"> <!-- creates a div called table lol -->
-			
-					<ol> <!-- this is the ordered list that has 10 elements within it labelled 1-10 -->
-					
-						<li>Solar Energy</li>
-						<li>Wind Energy</li>
-						<li>Hydropower</li>
-						<li>Geothermal Energy</li>
-						<li>Biomass Energy</li>
-						<li>Tidal Energy</li>
-						<li>Wave Energy</li>
-						<li>Hydrogen</li>
-						<li>Algae Biofuel</li>
-						<li>Ocean Thermal Energy</li>
-					
-					</ol>
-				
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-md-6 mb-3"> <!-- this is the column size from bootstrap -->
+				<img src="images/solar.jpg" class="img-fluid" alt="Image of solar panels">
+				<!-- this is an image called solar.jpg -->
 			</div>
-			
-			<img id="side-image" src="images/research.jpg" alt="image of a magnifying glass" > <!-- this is an image of a magnifying glass -->
-			
+			<div class="col-md-6 mb-3">
+				<img src="images/turbine.jpg" class="img-fluid" alt="Image of wind turbines">
 			</div>
-			
-		</div>	 
-			
-	<br>
-	
-	<h2 id="head-n4">Contact</h2> <!-- h2 tag makes a heading -->
-	
-	<br>
-	
-	<h4 id="cont">Aidas Kibas - Renewable Energy Expert</h4> <!-- this is where my contact form begins -->
-	
-		<form class="form-a"> <!-- creating the form -->
-		
-			<label>Enter your name:</label><br> <!-- labels outline what the input should be to the user -->
-			
-				<input id="name" type="text" placeholder="name" required><br> <!-- all the inputs here are a text box where the user enters their details -->
-				
-				<label>Enter your age:</label><br>
-				
-				<input id="age" type="text" placeholder="age"><br>
-				
-				<label>Enter your e-mail:</label><br>
-				
-				<input id="email" type="text" placeholder="e-mail" required><br>
-				
-				<label>Enter your message</label><br>
-				
-				<textarea id="message" name="message" rows="4" cols="50"></textarea><br> <!-- except here where the user writes the message to the person they are contacting -->
-				
-				<button id="continue">Continue</button> <!-- button id as continue -->
-				
-		</form> <!-- end form -->
-		
-	<br>
-	
-		<div id="response"> <!-- a div created where the response will be from the js based on the user input -->
-		
+			<div class="col-md-6 mb-3">
+				<img id="dam" src="images/dam.jpg" class="img-fluid" alt="Image of water dam">
+			</div>
+			<div class="col-md-6 mb-3">
+				<img src="images/nature.jpg" class="img-fluid" alt="Image of tree in nature">
+			</div>
 		</div>
-		
+	</div>
 	<br>
-		
-		<footer id="foot"> <!-- footer with text in it -->
-		
-				<p>Action On Climate Change 2025. All rights reserved &copy</p>
-	
-		</footer>
-		
-		<script> <!-- starts a script -->
-		
-		const energyExamples = [ // [] is an array where the following contents are strings. the js assigns these values into energyexamples variable 
-    "Solar Panels - Used to harness the energy generated from the sun.",
-    "Wind Turbines - Used to harness the energy generated by the wind.",
-    "Hydro Dam - Used to harness energy from flowing or falling water.",
-    "Natural Resources - Resources like trees can be reused as a renewable form of energy."
-  ];
+	<div class="info-box2-list"> <!-- this divs everything until the corresponding /div -->
+		<div class="info-box2">
+			<h2 id="head-n4">How You Can Help</h2>
+			<p>Knowledge is power. When it comes to Renewable Energy, you can help by simply learning about the topic or
+				a specific type of energy. Perhaps it will trigger an interest for a career in Renewable Energy or
+				become a fun fact that you can pull out when a conversation gets dull. Either way, learning anything new
+				about Renewable Energy will help you understand how many everyday objects work and how you can make a
+				change to be greener! Below we have a list of 10 types of Renewable Energy that you could learn about.
+				Simply choose a topic or press the "Generate" button for a random number if you are picky.</p>
+			<!-- text that i wrote 100% in my own words -->
+		</div>
+		<button id="button-a4" onclick="showRandom()">Generate Number</button>
+		<!-- This is the button that will cause the random number to be chosen by JS in the script in the head tag-->
+		<div class="list-image">
+			<div id="table-a"> <!-- creates a div called table lol -->
+				<ol> <!-- this is the ordered list that has 10 elements within it labelled 1-10 -->
+					<li>Solar Energy</li>
+					<li>Wind Energy</li>
+					<li>Hydropower</li>
+					<li>Geothermal Energy</li>
+					<li>Biomass Energy</li>
+					<li>Tidal Energy</li>
+					<li>Wave Energy</li>
+					<li>Hydrogen</li>
+					<li>Algae Biofuel</li>
+					<li>Ocean Thermal Energy</li>
+				</ol>
+			</div>
+			<img id="side-image" src="images/research.jpg" alt="image of a magnifying glass">
+			<!-- this is an image of a magnifying glass -->
+		</div>
+	</div>
+	<br>
+	<h2 id="head-n4">Contact</h2> <!-- h2 tag makes a heading -->
+	<br>
+	<h4 id="cont">Aidas Kibas - Renewable Energy Expert</h4> <!-- this is where my contact form begins -->
+	<form class="form-a"> <!-- creating the form -->
+		<label>Enter your name:</label><br> <!-- labels outline what the input should be to the user -->
+		<input id="name" type="text" placeholder="name" required><br>
+		<!-- all the inputs here are a text box where the user enters their details -->
+		<label>Enter your age:</label><br>
+		<input id="age" type="text" placeholder="age"><br>
+		<label>Enter your e-mail:</label><br>
+		<input id="email" type="text" placeholder="e-mail" required><br>
+		<label>Enter your message</label><br>
+		<textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+		<!-- except here where the user writes the message to the person they are contacting -->
+		<button id="continue">Continue</button> <!-- button id as continue -->
+	</form> <!-- end form -->
+	<br>
+	<div id="response"> <!-- a div created where the response will be from the js based on the user input -->
+	</div>
+	<br>
+	<footer id="foot"> <!-- footer with text in it -->
+		<p>Action On Climate Change 2025. All rights reserved &copy</p>
+	</footer>
+	<script> <!-- starts a script -->
+		const energyExamples = [ // [] is an array where the following contents are strings. the js assigns these values into energyexamples variable
+			"Solar Panels - Used to harness the energy generated from the sun.",
+			"Wind Turbines - Used to harness the energy generated by the wind.",
+			"Hydro Dam - Used to harness energy from flowing or falling water.",
+			"Natural Resources - Resources like trees can be reused as a renewable form of energy."
+		];
+		// this function displays the list from the above and from the element with the id olr1
+		function showEnergyList() {
+			const list = document.getElementById("olr1");
 
-  // this function displays the list from the above and from the element with the id olr1
-  function showEnergyList() {
-    const list = document.getElementById("olr1");
+			// this ensures the user on sees the list once
+			if (list.children.length > 0) return;
 
-    // this ensures the user on sees the list once
-    if (list.children.length > 0) return;
+			// Loops the array and creates the list items
+			energyExamples.forEach(item => {
+				const li = document.createElement("li");
+				li.textContent = item;
+				list.appendChild(li);
+			});
+		}
 
-    // Loops the array and creates the list items
-    energyExamples.forEach(item => {
-      const li = document.createElement("li");
-      li.textContent = item;
-      list.appendChild(li);
-    });
-  }
-  
- 
-  document.getElementById("continue").addEventListener("click", function(event) { //this gets the elements id as continue and adds an event listener so that when the user clicks the button the function event will be performed
-    event.preventDefault(); // Prevent form from refreshing the page
+		document.getElementById("continue").addEventListener("click", function (event) { //this gets the elements id as continue and adds an event listener so that when the user clicks the button the function event will be performed
+			event.preventDefault(); // Prevent form from refreshing the page
 
-    const name = document.getElementById("name").value.trim(); // this is where the js gets the element by their corresponding id and inserts it into a variable based on that element. the .trim prevents the page from reading any spaces typed in by mistake from the user.
-    const age = document.getElementById("age").value.trim();
-    const email = document.getElementById("email").value.trim();
-    const message = document.getElementById("message").value.trim();
+			const name = document.getElementById("name").value.trim(); // this is where the js gets the element by their corresponding id and inserts it into a variable based on that element. the .trim prevents the page from reading any spaces typed in by mistake from the user.
+			const age = document.getElementById("age").value.trim();
+			const email = document.getElementById("email").value.trim();
+			const message = document.getElementById("message").value.trim();
 
-    if (!name || !email) { // if the name or email are not written in then alert the following below to the user
-      alert("Please enter your name and email."); // alert this message to the user
-      return; //return the message so it can be displayed
-    }
-
-    const output = `Hello ${name}, your age is ${age}, your email is: ${email}, and your message is: "${message}".`; // this is how the message from the js to the response div will be layed out 
-
-    document.getElementById("response").innerHTML = output; // this is how the response is gotten from the js and displayed into the div called response 
-  });
-
-  </script> <!-- ends script -->
-
+			if (!name || !email) { // if the name or email are not written in then alert the following below to the user
+				alert("Please enter your name and email."); // alert this message to the user
+				return; //return the message so it can be displayed
+			}
+			const output = `Hello ${name}, your age is ${age}, your email is: ${email}, and your message is: "${message}".`; // this is how the message from the js to the response div will be layed out
+			document.getElementById("response").innerHTML = output; // this is how the response is gotten from the js and displayed into the div called response
+		});
+	</script> <!-- ends script -->
 </body> <!-- ends body -->
-
 </html> <!-- ends html file -->
