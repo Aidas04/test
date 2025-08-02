@@ -30,7 +30,7 @@ body {
 	/* space between links */
 }
 
-#t1 main-heading {
+#t1 h1 {
 	color: lightgreen;
 	/* makes the text lightgreen */
 	font-size: 50px;
@@ -504,5 +504,6 @@ body {
 		/* change text colour to white */
 	}
 }
+
 
 
