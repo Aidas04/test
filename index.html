@@ -89,7 +89,7 @@
 				<!-- This is the text inside the grid that is  100% my own words, the learn more button brings you to the page with the corresponding text -->
 			</div>
 			<div class="col">
-				<img id="tur" src="images/renew.jpg" alt="picture of wind turbines in field">
+				<img id="tur" src="images/renew.jpg" alt="picture of wind turbines in field" fetchpriority="high">
 				<!-- This is an image saved as renew.jpg and appears in the grid next to the text. If it does not appear the alt explains what the picture is in words -->
 			</div>
 			<div class="col">
@@ -104,7 +104,7 @@
 	<div class="container text-center">
 		<div class="row">
 			<div class="col">
-				<img id="soil" src="images/soil.jpg" alt="girl holding soil"> <!-- image again with alt text -->
+				<img id="soil" src="images/soil.jpg" alt="girl holding soil" fetchpriority="high"> <!-- image again with alt text -->
 			</div>
 			<div class="col">
 				<p id="paragraph2">Every product that we buy leaves an enviromental footprint. From the material we use
@@ -114,7 +114,7 @@
 				<!-- text from Chrisopher Musitongos page used as a "teaser" for his page with learn more button -->
 			</div>
 			<div class="col">
-				<img id="recycle" src="images/recycle.jpg" alt="picture of globe surrounded by plastic">
+				<img id="recycle" src="images/recycle.jpg" alt="picture of globe surrounded by plastic" fetchpriority="high">
 				<!-- image with alt text -->
 			</div>
 		</div>
@@ -158,16 +158,17 @@
 			<br>
 			<label>Choose your area of interest:</label> <!-- label again to tell user what to put into input box -->
 			<br>
-			<input type="radio" name="subs" value="Sustainable Living">
+			
+			<input type="radio" id="subs-sustainable" name="subs" value="Sustainable Living">
 			<!-- this is an input circle that lets a user "tick a box" for their preference. All the inputs that are radio can only be chosen once. So if i choose sustainable living, i cannot choose any other area of interest etc. -->
-			<label>Sustainable Living</label>
+			<label for="subs-sustainable">Sustainable Living</label>
 			<!-- this label describes what data the radio button will hold in this case Sustainable energy -->
-			<input type="radio" name="subs" value="Renewable Energy">
-			<label>Renewable Energy</label> <!-- this label describes what data the radio button will hold -->
-			<input type="radio" name="subs" value="Climate Policy">
-			<label>Climate Policy</label> <!-- this label describes what data the radio button will hold -->
-			<input type="radio" name="subs" value="Other">
-			<label>Other</label> <!-- this label describes what data the radio button will hold -->
+			<input type="radio" id="subs-renewable" name="subs" value="Renewable Energy">
+			<label for="subs-renewable">Renewable Energy</label> <!-- this label describes what data the radio button will hold -->
+			<input type="radio" id="subs-climate" name="subs" value="Climate Policy">
+			<label for="subs-climate">Climate Policy</label> <!-- this label describes what data the radio button will hold -->
+			<input type="radio" id="subs-other" name="subs" value="Other">
+			<label for="subs-other">Other</label> <!-- this label describes what data the radio button will hold -->
 			<br>
 			<button id="con">Confirm</button>
 			<!-- this confirm button  will take all the data from above and display a text box based on what the user inputted -->
